@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Tech Store</title>
+    </head>
+    <body>
+        <div id="header">
+            <h3 id="title">Tech Store</h3>
+
+            <nav>
+                <a href="#product-section"><h6>Products</h6></a>
+                <a href="#footer"><h6>Contact</h6></a>
+                <a href="#form-section"><h6>Join Us</h6></a>
+            </nav>
+
+            <img src="svgs/menu-btn.svg" id="menu-btn">
+        </div>
+        <hr>
+
+        <div id="hero-section" class="main-section">
+            <div id="hero-img-container">
+                <img src="images/hero1.jpg" id="hero-img" alt="women-with-laptop">
+            </div>
+            <div id="hero-content">
+                <h1>Welcome to Tech Store</h1>
+                <h5>A website filled with tech goodies.</h5>
+            </div>
+        </div>
+        <hr>
+
+        <div id="product-section" class="main-section">
+            <h3>Here is a list of some of our products</h3>
+
+            <div class="product-holder">
+                <a href="#" class="product-container">
+                    <img src="images/desktop.png" class="product-img" alt="laptop">
+                    <h5>Laptop</h5>
+                </a>
+
+                <a href="#" class="product-container">
+                    <img src="images/console.png" class="product-img" alt="consoles">
+                    <h5>Consoles</h5>
+                </a>
+            </div>
+
+            <div class="product-holder">
+                <a href="#" class="product-container">
+                    <img src="images/airpods.png" class="product-img" alt="airpods">
+                    <h5>Airpods</h5>
+                </a>
+
+                <a href="#" class="product-container">
+                    <img src="images/mobiles.png" class="product-img" alt="mobiles">
+                    <h5>Mobiles</h5>
+                </a>
+            </div>
+
+            <a href="#" id="see-more" class="button"><h5>See more</h5></a>
+        </div>
+        <hr>
+
+        <div id="form-section" class="main-section">
+            <h3>Join us now!!</h3>
+
+            <div id="forms-container">
+                <form id="login-form" class="join-form">
+                    <h4>Login Here</h4>
+                    <div>
+                        <label for="email"><h6>Email</h6></label>
+                        <input type="email" name="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div>
+                        <label for="passwd"><h6>Password</h6></label>
+                        <input type="password" name="passwd" placeholder="Password" class="input">
+                    </div>
+
+                    <input type="submit" value="Login" class="button">
+                </form>
+
+                <form id="register-form" class="join-form">
+                    <h4>Register Here</h4>
+                    
+                    <div>
+                        <label for="email"><h6>Email</h6></label>
+                        <input type="email" name="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div>
+                        <label for="passwd"><h6>Password</h6></label>
+                        <input type="password" name="passwd" placeholder="Password" class="input">
+                    </div>
+
+                    <input type="submit" value="Register" class="button">
+                </form>
+            </div>
+        </div>
+        <hr>
+
+        <div id="footer">
+            <div id="affiliate-section" class="main-section">
+                <div id="affiliate-qus">
+                    <h2>Interested in becoming an affiliate?</h2>
+                    <h5>If yes then send us an email via the form on the right.</h5>
+                </div>
+
+                <form id="affiliate-form">
+                    <div>
+                        <label for="email"><h6>Email</h6></label>
+                        <input type="email" name="email" placeholder="Email" class="input">
+                    </div>
+    
+                    <input type="submit" value="Send" class="button">
+                </form>
+            </div>
+            <hr>
+            <div id="main-footer">
+                <p>&copy; Copyright Tech Store 2022. All rights reserved</p>
+                
+                <div id="policy-section">
+                    <a href="#"><h6>Privacy & Policy</h6></a>
+                    <a href="#"><h6>Terms & Condition</h6></a>
+                </div>
+
+                <div id="social-media-section">
+                    <a href="#"><img src="svgs/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="svgs/twitter.svg" alt="twitter"></a>
+                    <a href="#"><img src="svgs/instagram.svg" alt="instagram"></a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
